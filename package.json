@@ -1,7 +1,7 @@
 {
     "name": "keycloakify-starter-cra",
     "homepage": "https://cra-starter.keycloakify.dev",
-    "version": "5.3.3",
+    "version": "6.0.0",
     "description": "A starter/demo project for keycloakify",
     "repository": {
         "type": "git",
