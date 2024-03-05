@@ -25,7 +25,7 @@
     "dependencies": {
         "evt": "^2.5.7",
         "oidc-spa": "^4.2.1",
-        "keycloakify": "^9.4.1",
+        "keycloakify": "^9.6.1",
         "powerhooks": "^1.0.8",
         "react": "18.1.0",
         "react-dom": "18.1.0",
