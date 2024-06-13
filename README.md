@@ -1,16 +1,16 @@
 <p align="center">
-    <i>🚀 <a href="https://keycloakify.dev">Keycloakify</a> v10 starter 🚀</i>
+    <i>🚀 <a href="https://keycloakify.dev">Keycloakify</a> v10 starter for Webpack🚀</i>
     <br/>
     <br/>
 </p>
 
-This starter is based on Vite. There is also [a Webpack based starter](https://github.com/keycloakify/keycloakify-starter-cra).
+This starter is based on Create React App. Prefer using [the Vite starter](https://github.com/keycloakify/keycloakify-starter) if you can.
 
 # Quick start
 
 ```bash
-git clone https://github.com/keycloakify/keycloakify-starter
-cd keycloakify-starter
+git clone https://github.com/keycloakify/keycloakify-starter-cra
+cd keycloakify-starter-cra
 yarn install
 # Generate the dist_keycloak/.jar file that you can import in Keycloak
 yarn build-keycloak-theme
