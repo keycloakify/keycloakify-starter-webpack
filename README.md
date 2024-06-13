@@ -67,8 +67,9 @@ If you don't need to customize [the account theme pages](https://storybook.keycl
 You can remove the `src/account` directory.  
 This will significantly reduce the the size of the jar and the build time.
 
-You'll need to apply theses changes to the `src/main.tsx` file:
+You'll need to apply theses changes to the `src/index.tsx` file:
 
+`src/index.tsx`
 ```diff
  createRoot(document.getElementById("root")!).render(
      <StrictMode>
@@ -95,4 +96,4 @@ You'll need to apply theses changes to the `src/main.tsx` file:
  }
 ```
 
-Don't forget to update `src/main.tsx` and `src/vite-env.d.ts`.
+Don't forget to update `src/index.tsx` and `src/vite-env.d.ts`.
