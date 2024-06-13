@@ -1,54 +1,45 @@
 {
-    "name": "keycloakify-starter-cra",
-    "homepage": "https://cra-starter.keycloakify.dev",
-    "version": "6.0.0",
-    "description": "A starter/demo project for keycloakify",
+    "name": "keycloakify-starter",
+    "version": "6.1.10",
+    "description": "Keycloakify Webpack Starter",
     "repository": {
         "type": "git",
-        "url": "git://github.com/codegouvfr/keycloakify-starter-cra.git"
+        "url": "git://github.com/keycloakify/keycloakify-starter-cra.git"
     },
     "scripts": {
-        "start": "copy-keycloak-resources-to-public && react-scripts start",
-        "storybook": "copy-keycloak-resources-to-public && start-storybook -p 6006",
-        "build": "react-scripts build && rimraf build/keycloak-resources",
-        "build-keycloak-theme": "yarn build && keycloakify"
+        "start": "keycloakify update-kc-gen && keycloakify copy-keycloak-resources-to-public && react-scripts start",
+        "storybook": "keycloakify copy-keycloak-resources-to-public && storybook dev -p 6006",
+        "build": "keycloakify update-kc-gen && react-scripts build && rimraf build/keycloak-resources",
+        "build-keycloak-theme": "yarn build && keycloakify build",
+        "format": "npx prettier . --write"
     },
     "keycloakify": {
-        "themeName": "keycloakify-starter",
-        "extraThemeProperties": [ 
-            "foo=bar"
-        ]
+        "projectBuildDirPath": "build",
+        "keycloakifyBuildDirPath": "build_keycloak"
     },
-    "author": "u/garronej",
     "license": "MIT",
     "keywords": [],
     "dependencies": {
-        "evt": "^2.5.7",
-        "oidc-spa": "^4.2.1",
-        "keycloakify": "^9.6.1",
-        "powerhooks": "^1.0.8",
-        "react": "18.1.0",
-        "react-dom": "18.1.0",
-        "tsafe": "^1.6.6",
-        "zod": "^3.22.4"
+        "keycloakify": "10.0.0-rc.60",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
     },
     "devDependencies": {
-        "@types/node": "^15.3.1",
-        "@types/react": "18.0.9",
-        "@types/react-dom": "18.0.4",
+        "@types/react": "^18.2.43",
+        "@types/react-dom": "^18.2.17",
+        "prettier": "3.3.1",
+        "typescript": "~5.1.6",
+        "rimraf": "^5.0.5",
         "react-scripts": "5.0.1",
-        "typescript": "~4.7.0",
-        "@storybook/addon-actions": "^6.5.16",
-        "@storybook/addon-essentials": "^6.5.16",
-        "@storybook/addon-interactions": "^6.5.16",
-        "@storybook/addon-links": "^6.5.16",
-        "@storybook/builder-webpack5": "^6.5.16",
-        "@storybook/manager-webpack5": "^6.5.16",
-        "@storybook/node-logger": "^6.5.16",
-        "@storybook/preset-create-react-app": "^4.1.2",
-        "@storybook/react": "^6.5.16",
-        "@storybook/testing-library": "^0.0.13",
-        "rimraf": "^5.0.5"
+        "@storybook/blocks": "^8.1.9",
+        "@storybook/preset-create-react-app": "^8.1.9",
+        "@storybook/react": "^8.1.9",
+        "@storybook/react-webpack5": "^8.1.9",
+        "@storybook/test": "^8.1.9",
+        "eslint-plugin-storybook": "^0.8.0",
+        "prop-types": "^15.8.1",
+        "storybook": "^8.1.9",
+        "webpack": "^5.92.0"
     },
     "eslintConfig": {
         "extends": [
