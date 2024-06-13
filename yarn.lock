@@ -8025,10 +8025,10 @@ jsonpointer@^5.0.0:
     object.assign "^4.1.4"
     object.values "^1.1.6"
 
-keycloakify@10.0.0-rc.59:
-  version "10.0.0-rc.59"
-  resolved "https://registry.yarnpkg.com/keycloakify/-/keycloakify-10.0.0-rc.59.tgz#3034dc92f8be76f92978c326d79b844bca98bde2"
-  integrity sha512-jUhvAp9WK9Da4SnYrdtHwKLp23l1KlOzmUtOK0LxU5/3nO8NLq+bw0Rukn5ji0pr8RpVQaY1895k3Ir/TL/PAg==
+keycloakify@10.0.0-rc.60:
+  version "10.0.0-rc.60"
+  resolved "https://registry.yarnpkg.com/keycloakify/-/keycloakify-10.0.0-rc.60.tgz#b18640896431a7b932f36f439928398bcc3de0b9"
+  integrity sha512-DJkU2JE1xFOtCjzHljl1U+CfruK45j3R5xWJ5xigeicwuUIc5iD9Nr6OiI3+/n741DlJd8gasjL5rMF2QZAmlQ==
   dependencies:
     react-markdown "^5.0.3"
     tsafe "^1.6.6"
@@ -11599,10 +11599,10 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^5.2.0:
-  version "5.4.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
-  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
+typescript@~5.1.6:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.1.6.tgz#02f8ac202b6dad2c0dd5e0913745b47a37998274"
+  integrity sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==
 
 ufo@^1.4.0:
   version "1.5.3"
