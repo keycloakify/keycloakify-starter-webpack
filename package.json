@@ -4,23 +4,28 @@
     "description": "Keycloakify Webpack Starter",
     "repository": {
         "type": "git",
-        "url": "git://github.com/keycloakify/keycloakify-starter-cra.git"
+        "url": "git://github.com/keycloakify/keycloakify-starter-webpack.git"
     },
     "scripts": {
-        "start": "keycloakify update-kc-gen && keycloakify copy-keycloak-resources-to-public && react-scripts start",
-        "storybook": "keycloakify copy-keycloak-resources-to-public && storybook dev -p 6006",
-        "build": "keycloakify update-kc-gen && react-scripts build && rimraf build/keycloak-resources",
-        "build-keycloak-theme": "yarn build && keycloakify build",
+        "prestorybook": "keycloakify update-kc-gen && keycloakify copy-keycloak-resources-to-public",
+        "storybook": "storybook dev -p 6006",
+        "prestart": "npm run prestorybook",
+        "start": "react-scripts start",
+        "prebuild": "keycloakify update-kc-gen",
+        "build": "react-scripts build",
+        "postbuild": "rimraf build/keycloak-resources",
+        "build-keycloak-theme": "npm run build && keycloakify build",
         "format": "npx prettier . --write"
     },
     "keycloakify": {
         "projectBuildDirPath": "build",
-        "keycloakifyBuildDirPath": "build_keycloak"
+        "staticDirPathInProjectBuildDirPath": "static",
+        "publicDirPath": "public"
     },
     "license": "MIT",
     "keywords": [],
     "dependencies": {
-        "keycloakify": "10.0.0-rc.67",
+        "keycloakify": "10.0.0-rc.71",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },
