@@ -1,6 +1,6 @@
 {
     "name": "keycloakify-starter",
-    "version": "7.0.2",
+    "version": "7.0.3",
     "description": "Keycloakify Webpack Starter",
     "repository": {
         "type": "git",
