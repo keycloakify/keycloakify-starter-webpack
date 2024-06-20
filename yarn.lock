@@ -8025,10 +8025,10 @@ jsonpointer@^5.0.0:
     object.assign "^4.1.4"
     object.values "^1.1.6"
 
-keycloakify@10.0.0-rc.74:
-  version "10.0.0-rc.74"
-  resolved "https://registry.yarnpkg.com/keycloakify/-/keycloakify-10.0.0-rc.74.tgz#2d0920a0eb8f73342daffa10297733dd2332a3b7"
-  integrity sha512-byxnh3W59FPWCuBjzftwG/0UoMrq+wN51XXBYT862sfkqDVYqLygd++6IDueibbIrogXPDpFAK8suAQdWx6rBA==
+keycloakify@10.0.0-rc.77:
+  version "10.0.0-rc.77"
+  resolved "https://registry.yarnpkg.com/keycloakify/-/keycloakify-10.0.0-rc.77.tgz#883ad292d13f579caae0ff630fa8d59b2b1f75bd"
+  integrity sha512-NF4HSOxtIGu/mMBd3NxvLDWF9mCKXGgppbF6ewACHXqtIjkPeQP5bTYB4gwrCh10eXA1n+R5MpCIIqSLN3IoMw==
   dependencies:
     react-markdown "^5.0.3"
     tsafe "^1.6.6"
