@@ -15,7 +15,7 @@
         "build": "react-scripts build",
         "postbuild": "rimraf build/keycloak-resources",
         "build-keycloak-theme": "npm run build && keycloakify build",
-        "format": "npx prettier . --write"
+        "format": "prettier . --write"
     },
     "keycloakify": {
         "projectBuildDirPath": "build",
