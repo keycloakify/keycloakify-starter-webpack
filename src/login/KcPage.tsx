@@ -19,9 +19,7 @@ export default function KcPage(props: { kcContext: KcContext }) {
         kcContext,
         downloadTermsMarkdown: async ({ currentLanguageTag }) => {
             for (const languageTag of [currentLanguageTag, "en"]) {
-                const response = await fetch(
-                    `${PUBLIC_URL}/terms/${languageTag}.md`
-                );
+                const response = await fetch(`${PUBLIC_URL}/terms/${languageTag}.md`);
 
                 if (!response.ok) {
                     continue;
@@ -39,7 +37,7 @@ export default function KcPage(props: { kcContext: KcContext }) {
             };
         }
     });
-    
+
     const { i18n } = useI18n({ kcContext });
 
     return (
