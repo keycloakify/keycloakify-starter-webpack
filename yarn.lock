@@ -7906,10 +7906,10 @@ jsonpointer@^5.0.0:
     object.assign "^4.1.4"
     object.values "^1.1.6"
 
-keycloakify@^10.0.3:
-  version "10.0.3"
-  resolved "https://registry.yarnpkg.com/keycloakify/-/keycloakify-10.0.3.tgz#7c94302966528160d31a3b21006844197e0bfa18"
-  integrity sha512-uYEwTxMNG87CvaNAKIy/lJChV0SUtADjx7DWTqvoxZZ6INHxOc4CdZMspXoT3v3as7BUMvTHJmC2uQGmoCGaDw==
+keycloakify@^10.0.4:
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/keycloakify/-/keycloakify-10.0.4.tgz#6141b022cf5583d4eca515fdde886e99ffff7aa9"
+  integrity sha512-cg/exoH+2+eF7cqFX5QBUbTBzCfRwjW0Z9LNlzG0VyN65Zi7qd3RA2QuMV1GnTwCvCHGYFnMEHC9cWHjqI11Mw==
   dependencies:
     tsafe "^1.6.6"
 
