@@ -7,10 +7,10 @@
         "url": "git://github.com/keycloakify/keycloakify-starter-webpack.git"
     },
     "scripts": {
-        "prestorybook": "keycloakify update-kc-gen && keycloakify copy-keycloak-resources-to-public",
-        "storybook": "storybook dev -p 6006",
-        "prestart": "npm run prestorybook",
+        "prestart": "keycloakify update-kc-gen && keycloakify copy-keycloak-resources-to-public",
         "start": "react-scripts start",
+        "prestorybook": "npm run prestart",
+        "storybook": "storybook dev -p 6006",
         "prebuild": "keycloakify update-kc-gen",
         "build": "react-scripts build",
         "postbuild": "rimraf build/keycloak-resources",
