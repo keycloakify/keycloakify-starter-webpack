@@ -7906,12 +7906,12 @@ jsonpointer@^5.0.0:
     object.assign "^4.1.4"
     object.values "^1.1.6"
 
-keycloakify@^11.3.24:
-  version "11.3.24"
-  resolved "https://registry.yarnpkg.com/keycloakify/-/keycloakify-11.3.24.tgz#86dbd2c767577d5d245d414173b81fc2234b2a72"
-  integrity sha512-mr3fBG0iLqMPnC3NcEdHhDbe730JorsyzwvDozkxFTM9b18IEsPWYoj3xWGAUdOhsux1rMJoPvdRD145pRSfiQ==
+keycloakify@^11.3.31:
+  version "11.3.31"
+  resolved "https://registry.yarnpkg.com/keycloakify/-/keycloakify-11.3.31.tgz#eafbc15b9d07705a55cc4b64fd049a1cdf8c9f77"
+  integrity sha512-oZq1/MmLlt26EjQSfEyuyiQlXbrFjP2SjHiJXduMsfErwYXVW951CK4L1Rj3bnQYUMuaWSt0Zboo0ackCUZMCw==
   dependencies:
-    tsafe "^1.7.5"
+    tsafe "^1.8.5"
 
 keyv@^4.5.3:
   version "4.5.4"
@@ -11249,10 +11249,10 @@ ts-pnp@^1.1.6:
   resolved "https://registry.yarnpkg.com/ts-pnp/-/ts-pnp-1.2.0.tgz#a500ad084b0798f1c3071af391e65912c86bca92"
   integrity sha512-csd+vJOb/gkzvcCHgTGSChYpy5f1/XKNsmvBGO4JXS+z1v2HobugDz4s1IeFXM3wZB44uczs+eazB5Q/ccdhQw==
 
-tsafe@^1.7.5:
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/tsafe/-/tsafe-1.7.5.tgz#0d3a31202b5ef87c7ba997e66e03fd80801278ef"
-  integrity sha512-tbNyyBSbwfbilFfiuXkSOj82a6++ovgANwcoqBAcO9/REPoZMEQoE8kWPeO0dy5A2D/2Lajr8Ohue5T0ifIvLQ==
+tsafe@^1.8.5:
+  version "1.8.5"
+  resolved "https://registry.yarnpkg.com/tsafe/-/tsafe-1.8.5.tgz#cdf9fa3111974ac480d7ee519f8241815e5d22ea"
+  integrity sha512-LFWTWQrW6rwSY+IBNFl2ridGfUzVsPwrZ26T4KUJww/py8rzaQ/SY+MIz6YROozpUCaRcuISqagmlwub9YT9kw==
 
 tsconfig-paths@^3.15.0:
   version "3.15.0"
